@@ -1,0 +1,38 @@
+body {
+    margin: 0px 0px 0px 0px;
+    margin-top: 0px
+}
+
+hr {
+    margin-top: 0px;
+    background-color: lightgreen;
+    color: lightgreen;
+    height: 10px;
+    padding-left: 0px;
+}
+
+/* a.random{
+    text-decoration: none;
+    padding: 16px 16px;
+    color: black;
+}
+
+a:hover.random {
+    background-color: lightgreen;
+    cursor: pointer;
+} */
+
+nav {
+    background-color: white;
+    display: block;
+    height: auto;
+    display: inline-block;
+}
+
+.some {
+    margin: 0px 0px 0px 0px;
+    padding: 10px;
+    font-family: bold;
+    text-align: left;
+}
+

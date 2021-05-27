@@ -1,0 +1,45 @@
+<html>
+<body>
+<?php 
+$username = "username"; 
+$password = "password"; 
+$database = "your_database"; 
+$mysqli = new mysqli("localhost", $username, $password, $database); 
+$query = "SELECT * FROM table_name";
+
+
+echo '<table border="0" cellspacing="2" cellpadding="2"> 
+      <tr> 
+          <td> <font face="Arial">Value1</font> </td> 
+          <td> <font face="Arial">Value2</font> </td> 
+          <td> <font face="Arial">Value3</font> </td> 
+          <td> <font face="Arial">Value4</font> </td> 
+          <td> <font face="Arial">Value5</font> </td> 
+      </tr>';
+
+if ($result = $mysqli->query($query)) {
+    while ($row = $result->fetch_assoc()) {
+        $field1name = $row["col1"];
+        $field2name = $row["col2"];
+        $field3name = $row["col3"];
+        $field4name = $row["col4"];
+        $field5name = $row["col5"]; 
+        $field5name = $row["col6"]; 
+        $field5name = $row["col7"]; 
+        $field5name = $row["col8"]; 
+        $field5name = $row["col9"]; 
+        $field9name = $row["col10"]; 
+
+        echo '<tr> 
+                  <td>'.$field1name.'</td> 
+                  <td>'.$field2name.'</td> 
+                  <td>'.$field3name.'</td> 
+                  <td>'.$field4name.'</td> 
+                  <td>'.$field5name.'</td> 
+              </tr>';
+    }
+    $result->free();
+} 
+?>
+</body>
+</html

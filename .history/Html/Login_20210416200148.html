@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <link rel="icon" href="%PUBLIC_URL%/favicon.ico" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#000000" />
+    <meta
+      name="description"
+      content="Web site created using create-react-app"
+    />
+    <link rel="apple-touch-icon" href="%PUBLIC_URL%/logo192.png" />
+
+    <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
+    <link rel="stylesheet" href="./../Css/Login.css">
+    <title>Car Rental</title>
+  </head>
+  <body>
+    <form action = "./Php/">
+    <div class="login-box">
+      <h1>Login</h1>
+      <div class="textbox">
+        <i class="fas fa-user"></i>
+        <input class = "email" type="email" placeholder="Username" required>
+      </div>
+    
+      <div class="textbox">
+        <i class="fas fa-lock"></i>
+        <input class = "pass" type="password" placeholder="Password" id = "pass" required>
+      </div>
+      <p class = show>
+        <input type="checkbox" onclick="myFunction()">Show password
+      </p>
+    <div class = "Forgot">
+        <a href = "">Forgot Password ?</a>
+        <p>Don't have an account?</p>
+        <p>
+          Register here
+          <a href = "./OwnerRegistration.html" target="_blank" >Owner</a>
+          Or
+          <a href = "./UserRegistration.html" target="_blank">User</a>
+        </p>
+        
+    </div>
+    <a href="./Home.html"><button class="btn">Sign in</button></a>
+    </div>
+  </form>
+    <!--for show password-->
+    <script>
+      function myFunction() {
+        var x = document.getElementById("pass");
+        if (x.type === "password"){
+          x.type = "text";
+        } else {
+          x.type = "password";
+        }
+      }
+    </script>
+
+  </body>
+</html>

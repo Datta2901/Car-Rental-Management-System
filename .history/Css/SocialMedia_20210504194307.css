@@ -1,0 +1,10 @@
+.fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 30px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 50%;
+}
+
+<a href="#" class="fa fa-facebook"></a><a href="#" class="fa fa-twitter"></a>
