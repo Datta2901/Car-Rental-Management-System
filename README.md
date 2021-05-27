@@ -2,8 +2,8 @@
 
 > This  Website acts as intermediate between car owner and customer 
 
-#### How to use this website :
-* Customer/Owner should  create account.
+#### How to use this website /Features:
+* Customer/Owner should  create account
 * Login with proper credentials
 * Customer/Owner can view their profile
 * Customer/Owner can update their password/delete account
