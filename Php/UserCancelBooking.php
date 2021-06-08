@@ -107,7 +107,7 @@
             echo '<img src="data:image/jpeg;base64,'.base64_encode($row['Image'] ).'" height="400px" style = "padding:30px;"/>';
             echo '<br>'  
         ?> 
-        <a href="UserCarBookingHistory.php? Id= <?php echo $row["Id"];?>"  style = "background-color:green ;border: none;color: white;padding: 15px 32px;text-align: center;text-decoration: none;display: inline-block;font-size: 16px;position:relative; left:300px;">Show more</a>
+        <a href="UserCarBookingHistory.php? Id= <?php echo $row["Id"];?>"  style = "background-color:green ;border: none;color: white;padding: 15px 32px;text-align: center;text-decoration: none;display: inline-block;font-size: 16px;position:relative; left:300px;">Car Details</a>
         <a href="UserCancelCar.php? Id= <?php echo $row["Id"];?>"  style = "background-color:red;border: none;color: white;padding: 15px 32px;text-align: center;text-decoration: none;display: inline-block;font-size: 16px;position:relative; left:300px;">Cancel</a>
         <?php
         echo "</td>";

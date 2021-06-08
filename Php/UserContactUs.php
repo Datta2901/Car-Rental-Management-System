@@ -98,7 +98,7 @@ session_start();
                             <h2 class="text-center py-2"> Contact Us </h2>
                         </div>
                         <div class="card-body">
-                            <form action="./Contactus.php" method="POST">
+                            <form action="./ContactusU.php" method="POST">
                                 <input type="text" name="UserName" placeholder="User Name" class="form-control mb-2" required>
                                 <input type="email" name="Email" placeholder="Email" class="form-control mb-2" required>
                                 <input type="text" name="Subject" placeholder="Subject" class="form-control mb-2" required>

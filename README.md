@@ -16,6 +16,7 @@
 > * Html 
 > * Css
 > * Php
+> * Mysql
 > * JavaScript
 
 #### Used tools are 

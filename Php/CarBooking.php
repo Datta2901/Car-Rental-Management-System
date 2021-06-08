@@ -141,7 +141,7 @@
 <?php
     if(isset($_POST['Book'])){
 
-        echo $Id;
+        // echo $Id;
         $host = "localhost";
         $user = "root";
         $password = "";
@@ -167,11 +167,11 @@
         $query = "UPDATE booking SET Username = '$name',UserEmail = '$email',PhoneNumber = '$phone',Days = '$Days',sDate = '$sDate',status = '$status' where Id = '$Id'";
         $result = mysqli_query($conn,$query);
         if($result){
-            echo '<script type = "text/javascript">alert("Your  booking successful ")</script>';
-        }else{
+            echo '<script type = "text/javascript">alert("Your  booking successful")</script>';
+            // header("Location:UserBooking.php");
+          }else{
             echo '<script type = "text/javascript">alert("Some error occurred")</script>';
         }
-
     }
 ?>    
 

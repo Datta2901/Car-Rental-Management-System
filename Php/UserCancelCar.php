@@ -13,6 +13,7 @@
     $query = "UPDATE booking SET Status = '0' Where Id= '$Id';";
     if($data = mysqli_query($conn,$query)){
         echo '<script type = "text/javascript">alert("Your booking has been successfully cancelled")</script>';
+        // header("Location:UserCancelCar.php");
     }else{
         echo "something went wrong";
     }
