@@ -39,10 +39,31 @@
 #### Sample Frontend :
 
 ##### Login Page
-![Image](https://github.com/Datta2901/Car-Rental-Management-System/blob/master/Sample/Login.png)
+![Image](Output/LogIn%20page.png)
 
 ##### Home Page
+###### Owner Home Page
+![Image](Output/OwnerHomePage.png)
+###### User Home Page
 ![Image](./Sample/UserHome.png)
 
 ##### Registration page
-![Image](./Sample/Registration.png)
+###### User Registration Page
+![Image](Output/User%20Registration%20page.png)
+###### Owner Registration Page
+![Image](Output/Owner%20Registration%20page.png)
+
+##### User Booking page
+![Image](Output/User%20Booking.png)
+
+##### User Booking History page
+![Image](Output/Booking%20History.png)
+
+##### Remove Car page
+![Image](Output/Remove%20Cars.png)
+
+##### Update Password
+![Image](Output/Update%20Password.png)
+
+##### Contact Us Page
+![Image](Output/Contact%20us.png)
