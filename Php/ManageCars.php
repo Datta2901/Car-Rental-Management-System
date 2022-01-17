@@ -4,6 +4,13 @@
     <link rel="stylesheet" href="./../Css/Home.css">
     <title>Car Rental</title>
   </head>
+  <style>
+    body {
+      margin: 0px 0px 0px 0px;
+      width:100%;
+      overflow-x: hidden;
+    }
+  </style>
   <hr class = "Rule">
   <body>
   <p class = "some" >Car Rental Website </p>

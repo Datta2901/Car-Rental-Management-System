@@ -48,6 +48,12 @@ session_start();
     .dropdown-content a:hover {background-color: lightgreen;}
     
     .dropdown:hover .dropdown-content {display: block;background-color:white}
+
+    body {
+      margin: 0px 0px 0px 0px;
+      width:100%;
+      overflow-x: hidden;
+    }
       </style>
     
 </head>

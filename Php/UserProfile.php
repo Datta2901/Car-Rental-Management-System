@@ -75,7 +75,7 @@
         <?php 
           $email =$_SESSION['username'];
           $username = strstr($email, '@', true);
-          echo "<h1 align= right style = 'color:blue;position:relative;bottom:20px'> "."Hello ".$username."😀</h1>";
+          echo "<h1 align= right style = 'color:blue;position:relative;bottom:20px'> "."Hello ".$username."</h1>";
         ?>
         </div>
        <hr class = "Rule">
