@@ -39,7 +39,7 @@
 #### Sample Frontend :
 
 ##### Login Page
-![Image](https://github.com/manikanta2901/Car-Rental-Management-System/blob/master/Sample/Login.png)
+![Image](https://github.com/Datta2901/Car-Rental-Management-System/blob/master/Sample/Login.png)
 
 ##### Home Page
 ![Image](./Sample/UserHome.png)
